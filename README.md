@@ -10,6 +10,7 @@ _A mobile application prototype built using Flutter and Android SDK, designed to
 -<a href="#key-things">Key Things</a>
 -<a href="#how-to-run-this-program">How to run this program</a>
 -<a href="#recommendations">Recommendations</a>
+-<a href="#future-enhancements">Future Enhancements</a>
 -<a href="#builder-contact">Builder Contact</a>
 </pre>
 
@@ -19,7 +20,6 @@ The Easy Scanner App is a Flutter-based prototype that allows users to scan docu
 The project currently includes a functional UI with key screens (camera capture, crop view, document list), basic navigation, and integration with Flutter dependencies for further expansion.<br>
 
 <h2><a class="anchor" id="problem"></a>Problem</h2>
-Building a document scanner involves multiple technical challenges:<br>
 
 - Implementing smooth camera integration across Android devices.<br>
 - Allowing users to crop scanned images to document boundaries.<br>
@@ -28,7 +28,6 @@ Building a document scanner involves multiple technical challenges:<br>
 - Handling file storage, permissions, and sharing securely.<br>
 
 <h2><a class="anchor" id="tools"></a>Tools</h2>
-The app is developed using:<br>
 
 - Flutter & Dart: Core framework and language for cross-platform development.<br>
 - Android SDK: For native integrations and debugging.<br>
@@ -38,7 +37,7 @@ The app is developed using:<br>
 <h2><a class="anchor" id="projec-structure"></a>Project Structure</h2>
 <pre>EasyScannerApp/
 │
-├── 
+├── mastermind.py             # Main Python script to run the program
 ├── README.md             # Project documentation
 </pre>
 
@@ -68,14 +67,13 @@ cd EasyScannerApp<br>
 - flutter run<br>
 
 <h2><a class="anchor" id="recommendations"></a>Recommendations</h2>
-For developers experimenting with scanner apps:<br>
 
 - Keep UI modular (separate screens & widgets).<br>
 - Use image_cropper and pdf packages for production-ready scanning features.<br>
 - Implement error handling for camera permission and file saving.<br>
 - Test across multiple Android versions for compatibility.<br>
 
-<a class="anchor" id="future-enhancements"></a>
+<h2><a class="anchor" id="future-enhancements"></a>Future Enhancements</h2>
 
 - Full Cropping Functionality: Add responsive, draggable crop box.<br>
 - OCR Integration: Extract text from scanned documents.<br>
