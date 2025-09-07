@@ -38,7 +38,7 @@ The app is developed using:<br>
 <h2><a class="anchor" id="projec-structure"></a>Project Structure</h2>
 <pre>EasyScannerApp/
 │
-├── mastermind.py             # Main Python script to run the program
+├── 
 ├── README.md             # Project documentation
 </pre>
 
