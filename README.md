@@ -6,7 +6,6 @@ _A mobile application prototype built using Flutter and Android SDK, designed to
 -<a href="#overview">Overview</a>
 -<a href="#problem">Problem</a>
 -<a href="#tools">Tools</a>
--<a href="#project-structure">Project Structure</a>
 -<a href="#key-things">Key Things</a>
 -<a href="#how-to-run-this-program">How to run this program</a>
 -<a href="#recommendations">Recommendations</a>
@@ -33,13 +32,6 @@ The project currently includes a functional UI with key screens (camera capture,
 - Android SDK: For native integrations and debugging.<br>
 - VS Code / Cursor IDE: For coding, testing, and project setup.<br>
 - pubspec.yaml: For dependency management.<br>
-
-<h2><a class="anchor" id="projec-structure"></a>Project Structure</h2>
-<pre>EasyScannerApp/
-│
-├── mastermind.py             # Main Python script to run the program
-├── README.md             # Project documentation
-</pre>
 
 <h2><a class="anchor" id="key-things"></a>Key Things</h2>
 
